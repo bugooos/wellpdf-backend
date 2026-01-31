@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+
+reportlab
+pandas
+openpyxl
+
+python-docx
+python-pptx
+ebooklib
+odfpy
+
+pdfminer.six
+beautifulsoup4
+lxml

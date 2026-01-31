@@ -1,0 +1,48 @@
+Nexu – Subdomain Intelligence & Recon Tool
+
+What the tool does:
+
+Nexu is a reconnaissance and intelligence tool for bug bounty hunters and penetration testers.
+
+It helps users understand a target subdomain instead of just dumping scan results.
+
+Current features:
+
+- Finds subdomains for a target domain
+
+- Shows which subdomains are alive
+
+- Clicking a subdomain opens a detailed intelligence page
+
+Subdomain intelligence includes:
+
+- Core information (subdomain, IP address)
+
+- DNS and network details (A, AAAA, CNAME, NS, MX, TXT records)
+
+- HTTP behavior and response headers
+
+- SSL / TLS certificate information
+
+What makes Nexu different:
+
+Instead of raw outputs, Nexu explains what the data means and why it matters.
+
+Each section can be clicked to see explanations, risks, and next steps.
+
+Future plans:
+
+- Smart analyzers that detect real security risks
+
+- Red flag system for potential misconfigurations
+
+- Integrated tools like port scan, directory scan, dorking, and wayback URLs
+
+- Guided hacking flow suggesting what to test next
+
+Goal:
+
+To help both beginners and experienced hunters think like professionals and focus on real attack
+surfaces.
+
+
