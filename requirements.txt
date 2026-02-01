@@ -17,3 +17,4 @@ beautifulsoup4
 lxml
 PyMuPDF==1.24.4
 docx2pdf
+PyPDF2
