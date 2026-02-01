@@ -1,17 +1,16 @@
-fastapi
-uvicorn
 
 python-multipart
 
-reportlab
-pandas
 openpyxl
-
+fastapi
+uvicorn
+pandas
+pdf2docx
+reportlab
 python-docx
 python-pptx
 ebooklib
 odfpy
-
 pdfminer.six
 beautifulsoup4
 lxml
