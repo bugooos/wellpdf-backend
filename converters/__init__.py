@@ -34,15 +34,3 @@ ALL_ROUTERS = [
     jpg_to_pdf_router,
     pdf_to_pptx_router,
 ]
-
-# ==================================================
-# Linux-only converters (WeasyPrint / Libre / GTK)
-# ==================================================
-if platform.system() == "Linux":
-    from .pdf_to_pptx import router as pdf_to_pptx_router
-    from .pptx_to_pdf import router as pptx_to_pdf_router
-
-    ALL_ROUTERS.extend([
-        pdf_to_pptx_router,
-        pptx_to_pdf_router,
-    ])
