@@ -16,6 +16,8 @@ from .pdf_to_html import router as pdf_to_html_router
 from .png_to_pdf import router as png_to_pdf_router
 from .jpg_to_pdf import router as jpg_to_pdf_router
 from .pdf_to_pptx import router as pdf_to_pptx_router
+from .image_to_audio import router as image_to_audio_router
+from .audio_to_image import router as audio_to_image_router
 
 ALL_ROUTERS = [
     csv_to_xlsx_router,
@@ -33,4 +35,6 @@ ALL_ROUTERS = [
     png_to_pdf_router,
     jpg_to_pdf_router,
     pdf_to_pptx_router,
+    image_to_audio_router,
+    audio_to_image_router,
 ]
