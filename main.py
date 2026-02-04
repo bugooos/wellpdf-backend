@@ -1,9 +1,11 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from core.temp_cleanup import start_temp_cleanup
 
 from converters import ALL_ROUTERS
 
 app = FastAPI(title="WellPDF Backend")
+start_temp_cleanup()
 
 # CORS
 app.add_middleware(
