@@ -11,6 +11,8 @@ start_temp_cleanup()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
+        "http://localhost:5500",
+        "http://127.0.0.1:5500",
         "https://wellpdf.pages.dev",
         "https://wellpdf.in",
         "https://www.wellpdf.in"
