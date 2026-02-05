@@ -19,3 +19,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+for router in ALL_ROUTERS:
+    app.include_router(router)
