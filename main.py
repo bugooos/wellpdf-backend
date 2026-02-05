@@ -10,12 +10,12 @@ start_temp_cleanup()
 # CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        "https://wellpdf.pages.dev",
+        "https://wellpdf.in",
+        "https://www.wellpdf.in"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-# Register all converters
-for router in ALL_ROUTERS:
-    app.include_router(router)
